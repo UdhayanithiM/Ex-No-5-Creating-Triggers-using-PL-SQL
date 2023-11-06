@@ -1,5 +1,5 @@
 # Ex. No: 5 Creating Triggers using PL/SQL
-
+## Date: 1/9/23
 ### AIM: To create a Trigger using PL/SQL.
 
 ### Steps:
@@ -60,12 +60,12 @@ insert into employed values(2,'Suju','SALES',500000);
 -- Update the salary of an employee
 UPDATE employed
 SET salary = 60000
-WHERE empid = 1;
+WHERE empid = 1;
 -- Display the employee table
 SELECT * FROM employed;
 
 -- Display the salary_log table
-SELECT * FROM sal_log;
+SELECT * FROM sal_log;
 ```
 
 ### Output:
